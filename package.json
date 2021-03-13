@@ -1,0 +1,36 @@
+{
+  "name": "knowledge-backend",
+  "version": "1.0.0",
+  "description": "Backend App para Plataforma de Conocimiento UNAB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinklink-dev/knowledge-backend.git"
+  },
+  "keywords": [
+    "papers",
+    "authors",
+    "aminer",
+    "MGA"
+  ],
+  "author": "Think Link",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinklink-dev/knowledge-backend/issues"
+  },
+  "homepage": "https://github.com/thinklink-dev/knowledge-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
