@@ -1,6 +1,7 @@
-const mongoose = require('mongoose');
+//const mongoose = require('mongoose');
+const db = require('../mongoConnection');
 
-const PaperSchema = mongoose.Schema({
+const PaperSchema = db.Schema({
     id: { type: String, required: false },
     title: { type: String },
     authors: { type: Array },
@@ -19,4 +20,4 @@ const PaperSchema = mongoose.Schema({
     abstract: { type:String }
 });
 
-module.exports = mongoose.model('Paper', PaperSchema);
+module.exports = db.model('Paper', PaperSchema);

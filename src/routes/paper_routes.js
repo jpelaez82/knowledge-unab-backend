@@ -1,5 +1,5 @@
 const express = require('express');
-const Paper = require('../models/Paper');
+const Paper = require('../../models/Paper');
 const router = express.Router();
 
 // Get data from Mongo DB
